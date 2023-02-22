@@ -1,0 +1,8 @@
+#!/bin/bash
+var=0
+cnt=$0
+while [ "$var" -le ${#cnt} ]
+do
+  var=`expr $var + 1`
+done
+  echo $var
